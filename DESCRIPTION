@@ -1,16 +1,19 @@
 Package: QuartoHelpers
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: Helper functions for Quarto Cli
+Version: 0.0.1
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "José Andrés", "Flores García",
+      email = "andres.flores@uaslp.mx",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Functions for Quarto build conditional content based on profiles.
+    Profiles can be used with _quarto-profile.yml.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.3
+Imports: 
+  knitr
